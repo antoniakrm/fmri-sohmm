@@ -112,7 +112,7 @@ def convert(data_dir, outfile_name, vec_dim=100, subjects=8, normalize=True, loo
     words2vecs = map_words2vecs(words, times, reduced_vecs, normalize, lookout, lookback)
     wc = 0
     sc = 0
-    outfile_name = "{}-{}-{}-{}-{}.vecs".format(outfile_name, subjects, lookback, lookout, vec_dim)
+    outfile_name = "../vecs/{}-{}-{}-{}-{}.vecs".format(outfile_name, subjects, lookback, lookout, vec_dim)
     print("Writing vectors to file: "+outfile_name)
     outfile = codecs.open(outfile_name, "w", "utf-8")
     print(outfile)
@@ -137,7 +137,7 @@ def convert(data_dir, outfile_name, vec_dim=100, subjects=8, normalize=True, loo
 
 def main():
     scriptdir = os.path.dirname(os.path.realpath(__file__))
-    data_dir = '/home/joachim/data/fmri/'
+    data_dir = '../fmri/data'
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', '-d', default=data_dir, help='Features and labels')
     parser.add_argument('--verbose', '-v', dest='verbose', action='store_true')
