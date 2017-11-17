@@ -40,7 +40,7 @@ def map_words2vecs(words, times, vecs, normalize=True, lookout=4.0, lookback=0.0
         return vsum / len(vs)
 
     def vecs_by_timeframe(t_start, t_end):
-        return vecs[t_start*2:t_end*2]  # there are 2 vectors for every second, e.g. vector #40 is at 20 sec
+        return vecs[int(t_start*2):int(t_end*2)]  # there are 2 vectors for every second, e.g. vector #40 is at 20 sec
 
     vecs_out = []
     m = len(words)
@@ -112,7 +112,7 @@ def convert(data_dir, outfile_name, vec_dim=100, subjects=8, normalize=True, loo
     words2vecs = map_words2vecs(words, times, reduced_vecs, normalize, lookout, lookback)
     wc = 0
     sc = 0
-    outfile_name = "../vecs/{}-{}-{}-{}-{}.vecs".format(outfile_name, subjects, lookback, lookout, vec_dim)
+    outfile_name = "data/vecs/{}-{}-{}-{}-{}.vecs".format(outfile_name, subjects, lookback, lookout, vec_dim)
     print("Writing vectors to file: "+outfile_name)
     outfile = codecs.open(outfile_name, "w", "utf-8")
     print(outfile)
@@ -141,7 +141,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', '-d', default=data_dir, help='Features and labels')
     parser.add_argument('--verbose', '-v', dest='verbose', action='store_true')
-    parser.add_argument('--output', '-o', help="Output file")
+    parser.add_argument('--output', '-o', help="Output file", default='potter')
     parser.add_argument('--dim', type=int, help="Dimensionality of features per subject", default=100)
     parser.add_argument('--subjects', '-s', type=int, help="Number of subjects", default=8)
     parser.add_argument('--normalize', dest='normalize', help="Column-wise normalization of features", action='store_true')

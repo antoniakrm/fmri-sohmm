@@ -18,7 +18,7 @@ echo "PatternMatchPipe [.,!?:;()\"/\[\]'«-]+ punct"  >> embedfeatures.txt
 echo 'SuffixPipe 1 20'  >> embedfeatures.txt
 echo 'SuffixPipe 2 20' >> embedfeatures.txt
 echo 'SuffixPipe 3 20' >> embedfeatures.txt
-echo 'WordEmbeddingsPipe data/'$vecfile >> embedfeatures.txt
+echo 'WordEmbeddingsPipe data/vecs/'$vecfile >> embedfeatures.txt
 
 # generate potter.params
 echo 'name=English' > potter.params
@@ -33,8 +33,8 @@ echo 'dev-file=data/potter.dv.conll' >> potter.params
 echo 'test-name1=TEST1' >> potter.params
 echo 'test-file1=data/potter.te.conll' >> potter.params
 
-python src/convert_data.py -s $subjects --dim $dimensions --lookback $lookback --lookout $lookout -o potter
-mv $vecfile data
+python src/convert_data.py -d fmri/data -s $subjects --dim $dimensions --lookback $lookback --lookout $lookout -o potter
+#mv $vecfile data
 
 java -Xmx32g -jar lib/sohmm.jar train potter.params en-wik-20120320.params embedfeatures.txt output/ $iter acc
 
