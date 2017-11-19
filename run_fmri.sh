@@ -1,7 +1,8 @@
 iter=30
 split=te
 
-
+# create dir if not there already
+mkdir data/vecs 2> /dev/null
 
 subjects=$1
 lookback=$2
@@ -33,8 +34,12 @@ echo 'dev-file=data/potter.dv.conll' >> potter.params
 echo 'test-name1=TEST1' >> potter.params
 echo 'test-file1=data/potter.te.conll' >> potter.params
 
-python src/convert_data.py -d fmri/data -s $subjects --dim $dimensions --lookback $lookback --lookout $lookout -o potter
-#mv $vecfile data
+if [ -f data/vecs/$vecfile ]; then
+    echo "Vectors file already present at data/vecs/"$vecfile
+else
+    python src/convert_data.py -d fmri/data -s $subjects --dim $dimensions --lookback $lookback --lookout $lookout -o potter
+fi
+
 
 java -Xmx32g -jar lib/sohmm.jar train potter.params en-wik-20120320.params embedfeatures.txt output/ $iter acc
 

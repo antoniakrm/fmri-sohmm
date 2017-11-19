@@ -94,7 +94,7 @@ def convert(data_dir, outfile_name, vec_dim=100, subjects=8, normalize=True, loo
     times = []
     reduced_vecs = []
     for i in range(1, subjects+1):
-        print(i)
+        print("Extracting vectors for subject {}".format(i))
         matfile = os.path.join(data_dir, "subject_{}.mat".format(i))
         data = sio.loadmat(matfile)
         if i == 1:
@@ -107,15 +107,13 @@ def convert(data_dir, outfile_name, vec_dim=100, subjects=8, normalize=True, loo
 
     reduced_vecs = concatenate(np.array(reduced_vecs))
     reduced_vecs = inflate(reduced_vecs)
-    print("RVecs shape")
-    print(reduced_vecs.shape)
+    print("Reduced vecs shape: {}".format(reduced_vecs.shape))
     words2vecs = map_words2vecs(words, times, reduced_vecs, normalize, lookout, lookback)
     wc = 0
     sc = 0
     outfile_name = "data/vecs/{}-{}-{}-{}-{}.vecs".format(outfile_name, subjects, lookback, lookout, vec_dim)
     print("Writing vectors to file: "+outfile_name)
     outfile = codecs.open(outfile_name, "w", "utf-8")
-    print(outfile)
     # fileidx = 0
     for w, v in words2vecs:
         eos = False
