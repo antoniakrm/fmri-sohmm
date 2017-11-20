@@ -1,15 +1,6 @@
 iter=30
 split=te
 
-# create dir if not there already
-mkdir data/vecs 2> /dev/null
-
-subjects=$1
-lookback=$2
-lookout=$3
-dimensions=$4
-
-vecfile=potter-$subjects-$lookback-$lookout-$dimensions.vecs
 # generate embedfeatures.txt
 echo 'WordIdLower 10' > embedfeatures.txt
 echo 'PatternMatchPipe .*-.* hyphen' >> embedfeatures.txt
@@ -19,7 +10,10 @@ echo "PatternMatchPipe [.,!?:;()\"/\[\]'«-]+ punct"  >> embedfeatures.txt
 echo 'SuffixPipe 1 20'  >> embedfeatures.txt
 echo 'SuffixPipe 2 20' >> embedfeatures.txt
 echo 'SuffixPipe 3 20' >> embedfeatures.txt
-echo 'WordEmbeddingsPipe data/vecs/'$vecfile >> embedfeatures.txt
+if [ ! -z "$1" ] 
+then
+  echo 'WordEmbeddingsPipe '$1 >> embedfeatures.txt 
+fi
 
 # generate potter.params
 echo 'name=English' > potter.params
@@ -33,12 +27,6 @@ echo 'dev-name=DEV' >> potter.params
 echo 'dev-file=data/potter.dv.conll' >> potter.params
 echo 'test-name1=TEST1' >> potter.params
 echo 'test-file1=data/potter.te.conll' >> potter.params
-
-if [ -f data/vecs/$vecfile ]; then
-    echo "Vectors file already present at data/vecs/"$vecfile
-else
-    python src/convert_data.py -d fmri/data -s $subjects --dim $dimensions --lookback $lookback --lookout $lookout -o potter
-fi
 
 
 java -Xmx32g -jar lib/sohmm.jar train potter.params en-wik-20120320.params embedfeatures.txt output/ $iter acc
