@@ -6,7 +6,7 @@ split=te
 if [ "$1" = "type" ]
 then
 echo "Type"
-VECS="vecs/potter-8-4.0-10.0-10-types.vecs"
+VECS="vecs/potter-8-4.0-10.0-10-type_MBnew.vecs"
 SYSTEM="type"
 fi
 
@@ -53,7 +53,7 @@ echo 'test-file1=data/potter.te.conll' >> potter.params;
 
 java -Xmx32g -jar lib/sohmm.jar train potter.params en-wik-20120320.params $SYSTEM.embedfeatures.txt output/ $iter acc;
 
-java -Xmx32g -jar lib/sohmm.jar tag data/potter.$split.conll $SYSTEM.embedfeatures.txt output/ data/potter.$split.out acc;
+java -Xmx32g -jar lib/sohmm.jar tag data/potter.$split.conll $SYSTEM.embedfeatures.txt output/ data/potter.$split.$SYSTEM.out acc;
 
-python scripts/conll2BIO.py data/potter.$split.out data/potter.$split.conll > data/potter.$split.out.bio;
-perl scripts/conlleval.pl < data/potter.$split.out.bio;
+python scripts/conll2BIO.py data/potter.$split.$SYSTEM.out data/potter.$split.conll > data/potter.$split.$SYSTEM.out.bio;
+perl scripts/conlleval.pl < data/potter.$split.$SYSTEM.out.bio;

@@ -6,4 +6,4 @@ PatternMatchPipe [.,!?:;()"/\[\]'«-]+ punct
 SuffixPipe 1 20
 SuffixPipe 2 20
 SuffixPipe 3 20
-WordEmbeddingsPipe vecs/potter-8-4.0-10.0-10-types.vecs
+WordEmbeddingsPipe vecs/potter-8-4.0-10.0-10-type_MBnew.vecs
