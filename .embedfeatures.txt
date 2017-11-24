@@ -1,0 +1,9 @@
+WordIdLower 10
+PatternMatchPipe .*-.* hyphen
+PatternMatchPipe \p{javaUpperCase}.* capital
+PatternMatchPipe .*[0-9].* digit
+PatternMatchPipe [.,!?:;()"/\[\]'«-]+ punct
+SuffixPipe 1 20
+SuffixPipe 2 20
+SuffixPipe 3 20
+WordEmbeddingsPipe 

@@ -11,9 +11,9 @@ the_729	DET
 school_730	NOUN
 brooms_731	NOUN
 saying_732	VERB
-that_733	CONJ
-some_734	PRON
-of_735	VERB
+that_733	ADV
+some_734	DET
+of_735	ADP
 them_736	PRON
 started_737	VERB
 to_738	PRT
@@ -22,8 +22,8 @@ if_740	CONJ
 you_741	PRON
 flew_742	VERB
 too_743	ADV
-high_744	NOUN
-or_745	ADJ
+high_744	ADV
+or_745	ADV
 always_746	ADV
 flew_747	VERB
 slightly_748	ADV
@@ -45,9 +45,9 @@ hair_761	NOUN
 and_762	CONJ
 yellow_763	VERB
 eyes_764	VERB
-like_765	VERB
-a_766	DET
-hawk_767	NOUN
+like_765	ADJ
+a_766	PRT
+hawk_767	VERB
 
 Well_768	NOUN
 what_769	PRT
@@ -55,7 +55,7 @@ are_770	VERB
 you_771	PRON
 all_772	NOUN
 waiting_773	VERB
-for_774	ADP
+for_774	NOUN
 
 she_775	PRON
 barked_776	VERB
@@ -160,7 +160,7 @@ were_865	VERB
 afraid_866	ADJ
 thought_867	NOUN
 Harry_868	NOUN
-there_869	PRON
+there_869	PRT
 was_870	VERB
 a_871	DET
 quaver_872	NOUN
@@ -172,9 +172,9 @@ said_877	VERB
 only_878	ADJ
 too_879	ADV
 clearly_880	ADV
-that_881	PRON
-he_882	NOUN
-wanted_883	ADJ
+that_881	ADV
+he_882	PRON
+wanted_883	VERB
 to_884	PRT
 keep_885	VERB
 his_886	PRON
@@ -188,13 +188,13 @@ Hooch_892	NOUN
 then_893	CONJ
 showed_894	VERB
 them_895	PRON
-how_896	CONJ
+how_896	ADV
 to_897	PRT
 mount_898	VERB
 their_899	PRON
-brooms_900	NOUN
-without_901	CONJ
-sliding_902	VERB
+brooms_900	VERB
+without_901	ADV
+sliding_902	ADJ
 off_903	ADP
 the_904	DET
 end_905	NOUN
@@ -226,7 +226,7 @@ wrong_929	ADV
 for_930	ADP
 years_931	NOUN
 
-Now_932	NOUN
+Now_932	PRT
 when_933	CONJ
 I_934	NUM
 blow_935	VERB
@@ -259,7 +259,7 @@ back_960	ADV
 down_961	ADV
 by_962	PRT
 leaning_963	VERB
-forward_964	ADJ
+forward_964	ADV
 slightly_965	ADV
 
 On_966	NOUN
@@ -279,7 +279,7 @@ being_979	VERB
 left_980	VERB
 on_981	ADP
 the_982	DET
-ground_983	ADJ
+ground_983	NOUN
 pushed_984	VERB
 off_985	ADJ
 hard_986	ADV
@@ -287,9 +287,9 @@ before_987	ADP
 the_988	DET
 whistle_989	NOUN
 had_990	VERB
-touched_991	VERB
+touched_991	ADJ
 Madam_992	NOUN
-Hooch's_993	ADP
+Hooch's_993	CONJ
 lips_994	NOUN
 
 Come_995	NOUN
@@ -298,13 +298,13 @@ boy_997	NOUN
 
 she_998	PRON
 shouted_999	VERB
-but_1000	ADV
+but_1000	ADP
 Neville_1001	NOUN
 was_1002	VERB
 rising_1003	VERB
 straight_1004	ADJ
 up_1005	ADV
-like_1006	ADP
+like_1006	NOUN
 a_1007	DET
 cork_1008	NOUN
 shot_1009	VERB
@@ -314,17 +314,17 @@ a_1012	DET
 bottle_1013	NOUN
 twelve_1014	NOUN
 feet_1015	NOUN
-twenty_1016	NUM
+twenty_1016	NOUN
 feet_1017	NOUN
 
 Harry_1018	NOUN
 saw_1019	VERB
 his_1020	PRON
 scared_1021	VERB
-white_1022	NOUN
+white_1022	ADJ
 face_1023	NOUN
 look_1024	VERB
-down_1025	VERB
+down_1025	ADV
 at_1026	ADP
 the_1027	DET
 ground_1028	NOUN
@@ -332,7 +332,7 @@ falling_1029	VERB
 away_1030	ADV
 saw_1031	VERB
 him_1032	PRON
-gasp_1033	VERB
+gasp_1033	NOUN
 slip_1034	VERB
 sideways_1035	ADV
 off_1036	ADP
@@ -367,8 +367,8 @@ and_1063	CONJ
 higher_1064	ADJ
 and_1065	CONJ
 started_1066	VERB
-to_1067	PRT
-drift_1068	VERB
+to_1067	ADP
+drift_1068	NOUN
 lazily_1069	ADV
 toward_1070	ADP
 the_1071	DET
@@ -383,11 +383,11 @@ Madam_1078	NOUN
 Hooch_1079	NOUN
 was_1080	VERB
 bending_1081	VERB
-over_1082	NOUN
+over_1082	ADP
 Neville_1083	NOUN
 her_1084	PRON
 face_1085	VERB
-as_1086	ADP
+as_1086	ADV
 white_1087	ADJ
 as_1088	ADP
 his_1089	PRON
@@ -405,9 +405,9 @@ boy_1098	VERB
 it's_1099	ADJ
 all_1100	ADV
 right_1101	ADV
-up_1102	ADP
+up_1102	ADV
 you_1103	PRON
-get_1104	NOUN
+get_1104	VERB
 
 She_1105	PRON
 turned_1106	VERB
@@ -418,11 +418,11 @@ of_1110	ADP
 the_1111	DET
 class_1112	NOUN
 
-None_1113	ADV
+None_1113	DET
 of_1114	ADP
 you_1115	PRON
-is_1116	VERB
-to_1117	ADP
+is_1116	NOUN
+to_1117	PRT
 move_1118	NOUN
 while_1119	CONJ
 I_1120	NUM
@@ -441,17 +441,17 @@ brooms_1131	NOUN
 where_1132	CONJ
 they_1133	PRON
 are_1134	VERB
-or_1135	NOUN
+or_1135	ADP
 you'll_1136	.
 be_1137	VERB
 out_1138	ADV
 of_1139	ADP
 Hogwarts_1140	NOUN
-before_1141	ADV
+before_1141	CONJ
 you_1142	PRON
 can_1143	VERB
 say_1144	VERB
-Quidditch'_1145	DET
+Quidditch'_1145	CONJ
 Come_1146	NOUN
 on_1147	ADP
 dear_1148	NOUN
@@ -476,8 +476,8 @@ around_1165	ADP
 him_1166	PRON
 
 No_1167	DET
-sooner_1168	NOUN
-were_1169	VERB
+sooner_1168	ADJ
+were_1169	NOUN
 they_1170	PRON
 out_1171	VERB
 of_1172	ADP
@@ -498,8 +498,8 @@ great_1185	ADJ
 lump_1186	NOUN
 
 The_1187	DET
-other_1188	NOUN
-Slytherins_1189	PRON
+other_1188	ADJ
+Slytherins_1189	NOUN
 joined_1190	VERB
 in_1191	ADV
 
@@ -520,13 +520,13 @@ said_1203	DET
 Pansy_1204	ADJ
 Parkinson_1205	NOUN
 a_1206	PRT
-hard-faced_1207	VERB
+hard-faced_1207	NOUN
 Slytherin_1208	NUM
 girl_1209	NOUN
 
 Never_1210	ADV
 thought_1211	VERB
-you'd_1212	DET
+you'd_1212	PRON
 like_1213	VERB
 fat_1214	VERB
 little_1215	ADJ
@@ -553,7 +553,7 @@ stupid_1232	ADV
 thing_1233	NOUN
 Longbottom's_1234	DET
 gran_1235	NOUN
-sent_1236	NOUN
+sent_1236	VERB
 him_1237	PRON
 
 The_1238	DET

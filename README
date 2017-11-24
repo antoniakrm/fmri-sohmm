@@ -1,5 +1,8 @@
 To replicate the results, run
 
-bash run_fmri.sh [vecfile]
+bash ./run_all.sh
 
-where vecfile is one of the .vecs files supplied in vecs/. If no vecfile is specified, the baseline system (without fMRI vectors) is run.
+It will run first baseline, then type-level-experiment and last token-level.
+
+Or run them individually by running: 
+bash ./run_fmri_MB.sh [baseline | type | token]
