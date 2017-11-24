@@ -6,7 +6,9 @@ split=te
 if [ "$1" = "type" ]
 then
 echo "Type"
-VECS="vecs/potter-8-4.0-10.0-10-type_MBnew.vecs"
+#VECS="vecs/potter-4-0.0-8.0-10_types.vecs"
+#VECS="vecs/potter-8-4.0-10.0-10-type_normal.vecs"
+VECS="vecs/potter-8-4.0-10.0-10-type_lower.vecs"
 SYSTEM="type"
 fi
 
