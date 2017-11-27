@@ -12,7 +12,7 @@ school	NOUN
 brooms	NOUN
 saying	VERB
 that	CONJ
-some	PRON
+some	DET
 of	ADP
 them	PRON
 started	VERB
@@ -22,62 +22,62 @@ if	CONJ
 you	PRON
 flew	VERB
 too	ADV
-high	ADJ
-or	ADJ
+high	ADV
+or	CONJ
 always	ADV
 flew	VERB
 slightly	ADV
 to	ADP
 the	DET
 left	NOUN
-
+	
 Their	PRON
 teacher	NOUN
 Madam	NOUN
 Hooch	NOUN
 arrived	VERB
-
+	
 She	PRON
 had	VERB
-short	VERB
-gray	NOUN
+short	ADJ
+gray	ADJ
 hair	NOUN
 and	CONJ
-yellow	VERB
+yellow	ADJ
 eyes	NOUN
-like	CONJ
+like	ADP
 a	DET
 hawk	NOUN
-
-Well	NOUN
+	
+Well	PRT
 what	PRON
 are	VERB
 you	PRON
-all	ADV
+all	PRON
 waiting	VERB
 for	ADP
-
+	
 she	PRON
 barked	VERB
-
+	
 Everyone	PRON
 stand	VERB
-by	ADV
+by	ADP
 a	DET
 broomstick	NOUN
-
-Come	NOUN
-on	ADV
-hurry	NOUN
-up	ADV
-
+	
+Come	VERB
+on	PRT
+hurry	VERB
+up	PRT
+	
 Harry	NOUN
 glanced	VERB
 down	ADV
 at	ADP
 his	PRON
 broom	NOUN
-
+	
 It	PRON
 was	VERB
 old	ADJ
@@ -87,53 +87,53 @@ of	ADP
 the	DET
 twigs	NOUN
 stuck	VERB
-out	VERB
+out	ADV
 at	ADP
 odd	ADJ
 angles	NOUN
-
-Stick	NOUN
-out	VERB
+	
+Stick	VERB
+out	ADV
 your	PRON
-right	VERB
-hand	VERB
+right	ADJ
+hand	NOUN
 over	ADP
 your	PRON
-broom	VERB
+broom	NOUN
 called	VERB
 Madam	NOUN
 Hooch	NOUN
-at	NOUN
+at	ADP
 the	DET
 front	NOUN
 and	CONJ
 say	VERB
-Up'	PRON
+Up'	ADV
 UP	ADV
-
+	
 everyone	PRON
 shouted	VERB
-
-Harry's	_
+	
+Harry's	NOUN
 broom	NOUN
 jumped	VERB
 into	ADP
 his	PRON
-hand	VERB
-at	ADP
-once	CONJ
-but	ADV
+hand	NOUN
+at	ADV
+once	ADV
+but	CONJ
 it	PRON
 was	VERB
-one	PRON
+one	DET
 of	ADP
 the	DET
-few	NOUN
-that	CONJ
-did	NOUN
-
+few	ADJ
+that	PRON
+did	VERB
+	
 Hermione	NOUN
-Granger's	_
+Granger's	NOUN
 had	VERB
 simply	ADV
 rolled	VERB
@@ -142,32 +142,32 @@ on	ADP
 the	DET
 ground	NOUN
 and	CONJ
-Neville's	NUM
+Neville's	NOUN
 hadn't	VERB
 moved	VERB
-at	ADP
-all	NOUN
-
+at	ADV
+all	ADV
+	
 Perhaps	ADV
-brooms	VERB
-like	CONJ
+brooms	NOUN
+like	ADP
 horses	NOUN
 could	VERB
 tell	VERB
-when	CONJ
+when	PRON
 you	PRON
 were	VERB
 afraid	ADJ
-thought	NOUN
+thought	VERB
 Harry	NOUN
-there	PRON
+there	PRT
 was	VERB
 a	DET
 quaver	NOUN
 in	ADP
-Neville's	ADJ
+Neville's	NOUN
 voice	NOUN
-that	CONJ
+that	PRON
 said	VERB
 only	ADV
 too	ADV
@@ -182,56 +182,56 @@ feet	NOUN
 on	ADP
 the	DET
 ground	NOUN
-
+	
 Madam	NOUN
 Hooch	NOUN
-then	CONJ
+then	ADV
 showed	VERB
 them	PRON
-how	ADV
+how	PRON
 to	PRT
 mount	VERB
 their	PRON
-brooms	VERB
-without	ADV
+brooms	NOUN
+without	ADP
 sliding	VERB
 off	ADP
 the	DET
 end	NOUN
 and	CONJ
 walked	VERB
-up	ADV
+up	ADP
 and	CONJ
-down	VERB
+down	ADP
 the	DET
 rows	NOUN
 correcting	VERB
 their	PRON
 grips	NOUN
-
+	
 Harry	NOUN
 and	CONJ
 Ron	NOUN
 were	VERB
-delighted	VERB
+delighted	ADJ
 when	CONJ
 she	PRON
 told	VERB
-Malfoy	NUM
-he'd	NOUN
+Malfoy	NOUN
+he'd	PRON
 been	VERB
 doing	VERB
 it	PRON
-wrong	VERB
+wrong	ADV
 for	ADP
 years	NOUN
-
-Now	NOUN
+	
+Now	ADV
 when	CONJ
-I	NUM
+I	PRON
 blow	VERB
-my	PRT
-whistle	VERB
+my	PRON
+whistle	NOUN
 you	PRON
 kick	VERB
 off	ADV
@@ -239,51 +239,51 @@ from	ADP
 the	DET
 ground	NOUN
 hard	ADV
-said	DET
+said	VERB
 Madam	NOUN
 Hooch	NOUN
-
-Keep	NOUN
+	
+Keep	VERB
 your	PRON
-brooms	VERB
+brooms	NOUN
 steady	ADJ
-rise	NOUN
-a	ADP
-few	DET
+rise	VERB
+a	DET
+few	ADJ
 feet	NOUN
 and	CONJ
 then	ADV
 come	VERB
 straight	ADV
 back	ADV
-down	ADJ
-by	PRT
+down	ADV
+by	ADP
 leaning	VERB
 forward	ADV
 slightly	ADV
-
-On	NOUN
+	
+On	ADP
 my	PRON
-whistle	VERB
-three	NOUN
-two	NOUN
+whistle	NOUN
+three	NUM
+two	NUM
 But	CONJ
 Neville	NOUN
 nervous	ADJ
-and	NOUN
+and	CONJ
 jumpy	ADJ
 and	CONJ
-frightened	VERB
+frightened	ADJ
 of	ADP
-being	CONJ
+being	VERB
 left	VERB
 on	ADP
 the	DET
 ground	NOUN
 pushed	VERB
-off	ADP
-hard	NOUN
-before	ADV
+off	ADV
+hard	ADV
+before	ADP
 the	DET
 whistle	NOUN
 had	VERB
@@ -291,11 +291,11 @@ touched	VERB
 Madam	NOUN
 Hooch's	NOUN
 lips	NOUN
-
-Come	NOUN
+	
+Come	VERB
 back	ADV
 boy	NOUN
-
+	
 she	PRON
 shouted	VERB
 but	CONJ
@@ -304,7 +304,7 @@ was	VERB
 rising	VERB
 straight	ADV
 up	ADV
-like	ADV
+like	ADP
 a	DET
 cork	NOUN
 shot	VERB
@@ -312,16 +312,16 @@ out	ADV
 of	ADP
 a	DET
 bottle	NOUN
-twelve	NOUN
+twelve	NUM
 feet	NOUN
-twenty	NOUN
+twenty	NUM
 feet	NOUN
-
+	
 Harry	NOUN
 saw	VERB
 his	PRON
-scared	VERB
-white	NOUN
+scared	ADJ
+white	ADJ
 face	NOUN
 look	VERB
 down	ADV
@@ -339,12 +339,12 @@ off	ADP
 the	DET
 broom	NOUN
 and	CONJ
-WHAM	VERB
+WHAM	X
 a	DET
 thud	NOUN
 and	CONJ
 a	DET
-nasty	NOUN
+nasty	ADJ
 crack	NOUN
 and	CONJ
 Neville	NOUN
@@ -356,15 +356,15 @@ grass	NOUN
 in	ADP
 a	DET
 heap	NOUN
-
+	
 His	PRON
 broomstick	NOUN
 was	VERB
-still	VERB
+still	ADV
 rising	VERB
 higher	ADV
 and	CONJ
-higher	ADJ
+higher	ADV
 and	CONJ
 started	VERB
 to	PRT
@@ -375,10 +375,10 @@ the	DET
 forbidden	ADJ
 forest	NOUN
 and	CONJ
-out	VERB
+out	ADV
 of	ADP
 sight	NOUN
-
+	
 Madam	NOUN
 Hooch	NOUN
 was	VERB
@@ -386,29 +386,29 @@ bending	VERB
 over	ADP
 Neville	NOUN
 her	PRON
-face	VERB
+face	NOUN
 as	ADV
 white	ADJ
-as	ADP
+as	ADV
 his	PRON
-
-Broken	NOUN
+	
+Broken	ADJ
 wrist	NOUN
 Harry	NOUN
 heard	VERB
 her	PRON
-mutter	NOUN
-
-Come	NOUN
-on	NOUN
-boy	VERB
-it's	ADJ
-all	ADV
-right	VERB
-up	ADP
+mutter	VERB
+	
+Come	VERB
+on	ADV
+boy	NOUN
+it's	VERB
+all	PRON
+right	ADJ
+up	ADV
 you	PRON
-get	NOUN
-
+get	VERB
+	
 She	PRON
 turned	VERB
 to	ADP
@@ -417,49 +417,49 @@ rest	NOUN
 of	ADP
 the	DET
 class	NOUN
-
-None	ADV
+	
+None	DET
 of	ADP
-you	DET
-is	NOUN
-to	ADP
+you	PRON
+is	VERB
+to	PRT
 move	VERB
 while	CONJ
-I	NUM
+I	PRON
 take	VERB
-this	PRON
-boy	VERB
+this	DET
+boy	NOUN
 to	ADP
 the	DET
 hospital	NOUN
 wing	NOUN
-
+	
 You	PRON
 leave	VERB
 those	DET
 brooms	NOUN
-where	CONJ
+where	PRON
 they	PRON
 are	VERB
-or	ADJ
-you'll	PRT
+or	CONJ
+you'll	PRON
 be	VERB
-out	ADV
+out	ADP
 of	ADP
 Hogwarts	NOUN
 before	CONJ
 you	PRON
-can	NOUN
+can	VERB
 say	VERB
-Quidditch'	VERB
-Come	NOUN
-on	ADP
-dear	NOUN
-
+Quidditch'	NOUN
+Come	VERB
+on	ADV
+dear	ADJ
+	
 Neville	NOUN
 his	PRON
-face	VERB
-tear-streaked	NUM
+face	NOUN
+tear-streaked	ADJ
 clutching	VERB
 his	PRON
 wrist	NOUN
@@ -471,91 +471,91 @@ Hooch	NOUN
 who	PRON
 had	VERB
 her	PRON
-arm	VERB
+arm	NOUN
 around	ADP
 him	PRON
-
-No	NOUN
+	
+No	ADV
 sooner	ADV
 were	VERB
 they	PRON
-out	VERB
+out	ADP
 of	ADP
 earshot	NOUN
-than	CONJ
-Malfoy	NUM
+than	ADP
+Malfoy	NOUN
 burst	VERB
 into	ADP
 laughter	NOUN
-
-Did	NOUN
+	
+Did	VERB
 you	PRON
 see	VERB
 his	PRON
-face	VERB
+face	NOUN
 the	DET
 great	ADJ
 lump	NOUN
-
+	
 The	DET
-other	NOUN
+other	DET
 Slytherins	NOUN
 joined	VERB
-in	ADP
-
-Shut	NOUN
-up	ADV
+in	PRT
+	
+Shut	VERB
+up	PRT
 Malfoy	NOUN
 snapped	VERB
 Parvati	NOUN
 Patil	NOUN
-
-Ooh	VERB
+	
+Ooh	X
 sticking	VERB
-up	ADV
+up	PRT
 for	ADP
 Longbottom	NOUN
-
-said	DET
-Pansy	ADJ
+	
+said	VERB
+Pansy	NOUN
 Parkinson	NOUN
-a	VERB
-hard-faced	DET
-Slytherin	ADJ
+a	DET
+hard-faced	ADJ
+Slytherin	NOUN
 girl	NOUN
-
+	
 Never	ADV
 thought	VERB
-you'd	ADV
-like	PRT
-fat	VERB
-little	DET
+you'd	PRON
+like	VERB
+fat	ADJ
+little	ADJ
 crybabies	NOUN
 Parvati	NOUN
-
-Look	NOUN
-
-said	ADJ
-Malfoy	NUM
-darting	NOUN
-forward	VERB
+	
+Look	VERB
+	
+said	VERB
+Malfoy	NOUN
+darting	VERB
+forward	ADV
 and	CONJ
 snatching	VERB
-something	ADV
-out	ADV
+something	NOUN
+out	ADP
 of	ADP
 the	DET
 grass	NOUN
-
-It's	ADJ
+	
+It's	VERB
 that	DET
-stupid	NOUN
+stupid	ADJ
 thing	NOUN
-Longbottom's	CONJ
+Longbottom's	NOUN
 gran	NOUN
 sent	VERB
-him	PRON
-
+him	NOUN
+	
 The	DET
 Remembrall	NOUN
 glittered	VERB
@@ -567,7 +567,7 @@ he	PRON
 held	VERB
 it	PRON
 up	ADV
-
+	
 Harry	NOUN
 had	VERB
 heard	VERB
@@ -582,7 +582,7 @@ school	NOUN
 brooms	NOUN
 saying	VERB
 that	CONJ
-some	PRON
+some	DET
 of	ADP
 them	PRON
 started	VERB
@@ -592,62 +592,62 @@ if	CONJ
 you	PRON
 flew	VERB
 too	ADV
-high	ADJ
-or	ADJ
+high	ADV
+or	CONJ
 always	ADV
 flew	VERB
 slightly	ADV
 to	ADP
 the	DET
 left	NOUN
-
+	
 Their	PRON
 teacher	NOUN
 Madam	NOUN
 Hooch	NOUN
 arrived	VERB
-
+	
 She	PRON
 had	VERB
-short	VERB
-gray	NOUN
+short	ADJ
+gray	ADJ
 hair	NOUN
 and	CONJ
-yellow	VERB
+yellow	ADJ
 eyes	NOUN
-like	CONJ
+like	ADP
 a	DET
 hawk	NOUN
-
-Well	NOUN
+	
+Well	PRT
 what	PRON
 are	VERB
 you	PRON
-all	ADV
+all	PRON
 waiting	VERB
 for	ADP
-
+	
 she	PRON
 barked	VERB
-
+	
 Everyone	PRON
 stand	VERB
-by	ADV
+by	ADP
 a	DET
 broomstick	NOUN
-
-Come	NOUN
-on	ADV
-hurry	NOUN
-up	ADV
-
+	
+Come	VERB
+on	PRT
+hurry	VERB
+up	PRT
+	
 Harry	NOUN
 glanced	VERB
 down	ADV
 at	ADP
 his	PRON
 broom	NOUN
-
+	
 It	PRON
 was	VERB
 old	ADJ
@@ -657,53 +657,53 @@ of	ADP
 the	DET
 twigs	NOUN
 stuck	VERB
-out	VERB
+out	ADV
 at	ADP
 odd	ADJ
 angles	NOUN
-
-Stick	NOUN
-out	VERB
+	
+Stick	VERB
+out	ADV
 your	PRON
-right	VERB
-hand	VERB
+right	ADJ
+hand	NOUN
 over	ADP
 your	PRON
-broom	VERB
+broom	NOUN
 called	VERB
 Madam	NOUN
 Hooch	NOUN
-at	NOUN
+at	ADP
 the	DET
 front	NOUN
 and	CONJ
 say	VERB
-Up'	PRON
+Up'	ADV
 UP	ADV
-
+	
 everyone	PRON
 shouted	VERB
-
-Harry's	_
+	
+Harry's	NOUN
 broom	NOUN
 jumped	VERB
 into	ADP
 his	PRON
-hand	VERB
-at	ADP
-once	CONJ
-but	ADV
+hand	NOUN
+at	ADV
+once	ADV
+but	CONJ
 it	PRON
 was	VERB
-one	PRON
+one	DET
 of	ADP
 the	DET
-few	NOUN
-that	CONJ
-did	NOUN
-
+few	ADJ
+that	PRON
+did	VERB
+	
 Hermione	NOUN
-Granger's	_
+Granger's	NOUN
 had	VERB
 simply	ADV
 rolled	VERB
@@ -712,32 +712,32 @@ on	ADP
 the	DET
 ground	NOUN
 and	CONJ
-Neville's	NUM
+Neville's	NOUN
 hadn't	VERB
 moved	VERB
-at	ADP
-all	NOUN
-
+at	ADV
+all	ADV
+	
 Perhaps	ADV
-brooms	VERB
-like	CONJ
+brooms	NOUN
+like	ADP
 horses	NOUN
 could	VERB
 tell	VERB
-when	CONJ
+when	PRON
 you	PRON
 were	VERB
 afraid	ADJ
-thought	NOUN
+thought	VERB
 Harry	NOUN
-there	PRON
+there	PRT
 was	VERB
 a	DET
 quaver	NOUN
 in	ADP
-Neville's	ADJ
+Neville's	NOUN
 voice	NOUN
-that	CONJ
+that	PRON
 said	VERB
 only	ADV
 too	ADV
@@ -752,56 +752,56 @@ feet	NOUN
 on	ADP
 the	DET
 ground	NOUN
-
+	
 Madam	NOUN
 Hooch	NOUN
-then	CONJ
+then	ADV
 showed	VERB
 them	PRON
-how	ADV
+how	PRON
 to	PRT
 mount	VERB
 their	PRON
-brooms	VERB
-without	ADV
+brooms	NOUN
+without	ADP
 sliding	VERB
 off	ADP
 the	DET
 end	NOUN
 and	CONJ
 walked	VERB
-up	ADV
+up	ADP
 and	CONJ
-down	VERB
+down	ADP
 the	DET
 rows	NOUN
 correcting	VERB
 their	PRON
 grips	NOUN
-
+	
 Harry	NOUN
 and	CONJ
 Ron	NOUN
 were	VERB
-delighted	VERB
+delighted	ADJ
 when	CONJ
 she	PRON
 told	VERB
-Malfoy	NUM
-he'd	NOUN
+Malfoy	NOUN
+he'd	PRON
 been	VERB
 doing	VERB
 it	PRON
-wrong	VERB
+wrong	ADV
 for	ADP
 years	NOUN
-
-Now	NOUN
+	
+Now	ADV
 when	CONJ
-I	NUM
+I	PRON
 blow	VERB
-my	PRT
-whistle	VERB
+my	PRON
+whistle	NOUN
 you	PRON
 kick	VERB
 off	ADV
@@ -809,51 +809,51 @@ from	ADP
 the	DET
 ground	NOUN
 hard	ADV
-said	DET
+said	VERB
 Madam	NOUN
 Hooch	NOUN
-
-Keep	NOUN
+	
+Keep	VERB
 your	PRON
-brooms	VERB
+brooms	NOUN
 steady	ADJ
-rise	NOUN
-a	ADP
-few	DET
+rise	VERB
+a	DET
+few	ADJ
 feet	NOUN
 and	CONJ
 then	ADV
 come	VERB
 straight	ADV
 back	ADV
-down	ADJ
-by	PRT
+down	ADV
+by	ADP
 leaning	VERB
 forward	ADV
 slightly	ADV
-
-On	NOUN
+	
+On	ADP
 my	PRON
-whistle	VERB
-three	NOUN
-two	NOUN
+whistle	NOUN
+three	NUM
+two	NUM
 But	CONJ
 Neville	NOUN
 nervous	ADJ
-and	NOUN
+and	CONJ
 jumpy	ADJ
 and	CONJ
-frightened	VERB
+frightened	ADJ
 of	ADP
-being	CONJ
+being	VERB
 left	VERB
 on	ADP
 the	DET
 ground	NOUN
 pushed	VERB
-off	ADP
-hard	NOUN
-before	ADV
+off	ADV
+hard	ADV
+before	ADP
 the	DET
 whistle	NOUN
 had	VERB
@@ -861,11 +861,11 @@ touched	VERB
 Madam	NOUN
 Hooch's	NOUN
 lips	NOUN
-
-Come	NOUN
+	
+Come	VERB
 back	ADV
 boy	NOUN
-
+	
 she	PRON
 shouted	VERB
 but	CONJ
@@ -874,7 +874,7 @@ was	VERB
 rising	VERB
 straight	ADV
 up	ADV
-like	ADV
+like	ADP
 a	DET
 cork	NOUN
 shot	VERB
@@ -882,16 +882,16 @@ out	ADV
 of	ADP
 a	DET
 bottle	NOUN
-twelve	NOUN
+twelve	NUM
 feet	NOUN
-twenty	NOUN
+twenty	NUM
 feet	NOUN
-
+	
 Harry	NOUN
 saw	VERB
 his	PRON
-scared	VERB
-white	NOUN
+scared	ADJ
+white	ADJ
 face	NOUN
 look	VERB
 down	ADV
@@ -909,12 +909,12 @@ off	ADP
 the	DET
 broom	NOUN
 and	CONJ
-WHAM	VERB
+WHAM	X
 a	DET
 thud	NOUN
 and	CONJ
 a	DET
-nasty	NOUN
+nasty	ADJ
 crack	NOUN
 and	CONJ
 Neville	NOUN
@@ -926,15 +926,15 @@ grass	NOUN
 in	ADP
 a	DET
 heap	NOUN
-
+	
 His	PRON
 broomstick	NOUN
 was	VERB
-still	VERB
+still	ADV
 rising	VERB
 higher	ADV
 and	CONJ
-higher	ADJ
+higher	ADV
 and	CONJ
 started	VERB
 to	PRT
@@ -945,10 +945,10 @@ the	DET
 forbidden	ADJ
 forest	NOUN
 and	CONJ
-out	VERB
+out	ADV
 of	ADP
 sight	NOUN
-
+	
 Madam	NOUN
 Hooch	NOUN
 was	VERB
@@ -956,29 +956,29 @@ bending	VERB
 over	ADP
 Neville	NOUN
 her	PRON
-face	VERB
+face	NOUN
 as	ADV
 white	ADJ
-as	ADP
+as	ADV
 his	PRON
-
-Broken	NOUN
+	
+Broken	ADJ
 wrist	NOUN
 Harry	NOUN
 heard	VERB
 her	PRON
-mutter	NOUN
-
-Come	NOUN
-on	NOUN
-boy	VERB
-it's	ADJ
-all	ADV
-right	VERB
-up	ADP
+mutter	VERB
+	
+Come	VERB
+on	ADV
+boy	NOUN
+it's	VERB
+all	PRON
+right	ADJ
+up	ADV
 you	PRON
-get	NOUN
-
+get	VERB
+	
 She	PRON
 turned	VERB
 to	ADP
@@ -987,49 +987,49 @@ rest	NOUN
 of	ADP
 the	DET
 class	NOUN
-
-None	ADV
+	
+None	DET
 of	ADP
-you	DET
-is	NOUN
-to	ADP
+you	PRON
+is	VERB
+to	PRT
 move	VERB
 while	CONJ
-I	NUM
+I	PRON
 take	VERB
-this	PRON
-boy	VERB
+this	DET
+boy	NOUN
 to	ADP
 the	DET
 hospital	NOUN
 wing	NOUN
-
+	
 You	PRON
 leave	VERB
 those	DET
 brooms	NOUN
-where	CONJ
+where	PRON
 they	PRON
 are	VERB
-or	ADJ
-you'll	PRT
+or	CONJ
+you'll	PRON
 be	VERB
-out	ADV
+out	ADP
 of	ADP
 Hogwarts	NOUN
 before	CONJ
 you	PRON
-can	NOUN
+can	VERB
 say	VERB
-Quidditch'	VERB
-Come	NOUN
-on	ADP
-dear	NOUN
-
+Quidditch'	NOUN
+Come	VERB
+on	ADV
+dear	ADJ
+	
 Neville	NOUN
 his	PRON
-face	VERB
-tear-streaked	NUM
+face	NOUN
+tear-streaked	ADJ
 clutching	VERB
 his	PRON
 wrist	NOUN
@@ -1041,91 +1041,91 @@ Hooch	NOUN
 who	PRON
 had	VERB
 her	PRON
-arm	VERB
+arm	NOUN
 around	ADP
 him	PRON
-
-No	NOUN
+	
+No	ADV
 sooner	ADV
 were	VERB
 they	PRON
-out	VERB
+out	ADP
 of	ADP
 earshot	NOUN
-than	CONJ
-Malfoy	NUM
+than	ADP
+Malfoy	NOUN
 burst	VERB
 into	ADP
 laughter	NOUN
-
-Did	NOUN
+	
+Did	VERB
 you	PRON
 see	VERB
 his	PRON
-face	VERB
+face	NOUN
 the	DET
 great	ADJ
 lump	NOUN
-
+	
 The	DET
-other	NOUN
+other	DET
 Slytherins	NOUN
 joined	VERB
-in	ADP
-
-Shut	NOUN
-up	ADV
+in	PRT
+	
+Shut	VERB
+up	PRT
 Malfoy	NOUN
 snapped	VERB
 Parvati	NOUN
 Patil	NOUN
-
-Ooh	VERB
+	
+Ooh	X
 sticking	VERB
-up	ADV
+up	PRT
 for	ADP
 Longbottom	NOUN
-
-said	DET
-Pansy	ADJ
+	
+said	VERB
+Pansy	NOUN
 Parkinson	NOUN
-a	VERB
-hard-faced	DET
-Slytherin	ADJ
+a	DET
+hard-faced	ADJ
+Slytherin	NOUN
 girl	NOUN
-
+	
 Never	ADV
 thought	VERB
-you'd	ADV
-like	PRT
-fat	VERB
-little	DET
+you'd	PRON
+like	VERB
+fat	ADJ
+little	ADJ
 crybabies	NOUN
 Parvati	NOUN
-
-Look	NOUN
-
-said	ADJ
-Malfoy	NUM
-darting	NOUN
-forward	VERB
+	
+Look	VERB
+	
+said	VERB
+Malfoy	NOUN
+darting	VERB
+forward	ADV
 and	CONJ
 snatching	VERB
-something	ADV
-out	ADV
+something	NOUN
+out	ADP
 of	ADP
 the	DET
 grass	NOUN
-
-It's	ADJ
+	
+It's	VERB
 that	DET
-stupid	NOUN
+stupid	ADJ
 thing	NOUN
-Longbottom's	CONJ
+Longbottom's	NOUN
 gran	NOUN
 sent	VERB
-him	PRON
-
+him	NOUN
+	
 The	DET
 Remembrall	NOUN
 glittered	VERB
@@ -1137,4 +1137,4 @@ he	PRON
 held	VERB
 it	PRON
 up	ADV
-
+	

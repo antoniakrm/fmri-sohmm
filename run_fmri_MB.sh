@@ -8,7 +8,10 @@ then
 echo "Type"
 #VECS="vecs/potter-4-0.0-8.0-10_types.vecs"
 #VECS="vecs/potter-8-4.0-10.0-10-type_normal.vecs"
-VECS="vecs/potter-8-4.0-10.0-10-type_lower.vecs"
+#VECS="vecs/potter-8-4.0-10.0-10-type_lower.vecs"
+#VECS="vecs/typegrouped_lowercase.csv"
+VECS="vecs/typegrouped_normalcase.csv"
+#VECS="/Users/Maria/Documents/CST/THC/glove.6B.300d.txt"
 SYSTEM="type"
 fi
 
@@ -47,15 +50,19 @@ echo 'transductive=false' >> potter.params;
 echo 'unknown-words-thresh=0' >> potter.params;
 echo 'reader-type=acl2011' >> potter.params;
 echo 'train-name=TRAIN' >> potter.params;
-echo 'train-file=data/potter.tr.conll' >> potter.params;
+#echo 'train-file=data/potter.tr.conll' >> potter.params;
+echo 'train-file=data/potter.tr.no_id.conll' >> potter.params;
 echo 'dev-name=DEV' >> potter.params;
-echo 'dev-file=data/potter.dv.conll' >> potter.params;
+#echo 'dev-file=data/potter.dv.conll' >> potter.params;
+echo 'dev-file=data/potter.dv.no_id.conll' >> potter.params;
 echo 'test-name1=TEST1' >> potter.params;
-echo 'test-file1=data/potter.te.conll' >> potter.params;
+#echo 'test-file1=data/potter.te.conll' >> potter.params;
+echo 'test-file1=data/potter.te.no_id.conll' >> potter.params;
 
 java -Xmx32g -jar lib/sohmm.jar train potter.params en-wik-20120320.params $SYSTEM.embedfeatures.txt output/ $iter acc;
 
-java -Xmx32g -jar lib/sohmm.jar tag data/potter.$split.conll $SYSTEM.embedfeatures.txt output/ data/potter.$split.$SYSTEM.out acc;
+java -Xmx32g -jar lib/sohmm.jar tag data/potter.$split.no_id.conll $SYSTEM.embedfeatures.txt output/ data/potter.$split.$SYSTEM.out acc;
 
-python scripts/conll2BIO.py data/potter.$split.$SYSTEM.out data/potter.$split.conll > data/potter.$split.$SYSTEM.out.bio;
+python scripts/conll2BIO.py data/potter.$split.$SYSTEM.out data/potter.$split.no_id.conll > data/potter.$split.$SYSTEM.out.bio;
+#python scripts/conll2BIO.py data/potter.$split.$SYSTEM.out data/potter.$split.conll > data/potter.$split.$SYSTEM.out.bio;
 perl scripts/conlleval.pl < data/potter.$split.$SYSTEM.out.bio;
