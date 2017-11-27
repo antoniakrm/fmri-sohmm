@@ -1,0 +1,11 @@
+name=English
+lowercase=false
+transductive=false
+unknown-words-thresh=0
+reader-type=acl2011
+train-name=TRAIN
+train-file=data/potter.tr.conll
+dev-name=DEV
+dev-file=data/potter.dv.conll
+test-name1=TEST1
+test-file1=data/potter.te.conll

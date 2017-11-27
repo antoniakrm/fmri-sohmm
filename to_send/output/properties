@@ -1,0 +1,5 @@
+#Properties for SOHMMFinalState model
+#Mon Nov 27 10:17:35 CET 2017
+nrObservations=4898
+trueNumberOfStates=13
+nrStates=196

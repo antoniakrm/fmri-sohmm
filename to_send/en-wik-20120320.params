@@ -1,0 +1,24 @@
+## Name of the dictionary
+name=en-wik-20120320.dic
+
+## Language name, used for wiktionary to partially load dictionary
+lang-name=English
+
+## Word handling
+lowercase=true
+normalize=true
+
+## Dictionary type (Do not modify)
+dict-type=processed
+
+## Wiktionary dump file
+dict-file=data/en-wik-20120320.dic
+
+## Tag set mapping file
+## mapping-file=/tain/projects/acl2012/data/wiktionary/wik-to-universal.map
+
+## Priority entry file, there are some entries that override their meaning in 
+## Wiktionary, like the punctuations and the numbers (which is substituted by
+## a <num> token in our program. This parameter specify the file that defines 
+## priority entries like these.
+## priority-entries-file=/tain/projects/acl2012/data/wiktionary/priority-entries.tsv

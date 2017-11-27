@@ -1,0 +1,8 @@
+To replicate the results, run
+
+bash ./run_all.sh
+
+It will run first baseline, then token-level.
+
+Or run them individually by running: 
+bash ./run_fmri_MB.sh [baseline | token]
