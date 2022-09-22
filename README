@@ -1,4 +1,4 @@
-Evaluating word embeddings with fMRI
+Extracting token-level signals from fmri data
 
 ## How to Run
 
@@ -29,15 +29,17 @@ Or run them individually by running:
 
 ### Citation:
 
-@inproceedings{sogaard-2016-evaluating,
-    title = "Evaluating word embeddings with f{MRI} and eye-tracking",
-    author = "S{\o}gaard, Anders",
-    booktitle = "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}",
+@inproceedings{bingel-etal-2016-extracting,
+    title = "Extracting token-level signals of syntactic processing from f{MRI} - with an application to {P}o{S} induction",
+    author = "Bingel, Joachim  and
+      Barrett, Maria  and
+      S{\o}gaard, Anders",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     month = aug,
     year = "2016",
     address = "Berlin, Germany",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/W16-2521",
-    doi = "10.18653/v1/W16-2521",
-    pages = "116--121",
+    url = "https://aclanthology.org/P16-1071",
+    doi = "10.18653/v1/P16-1071",
+    pages = "747--755",
 }
