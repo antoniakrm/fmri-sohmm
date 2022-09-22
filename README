@@ -1,8 +1,43 @@
+Evaluating word embeddings with fMRI
+
+## How to Run
+
 To replicate the results, run
 
-bash ./run_all.sh
+```bash ./run_all.sh```
 
 It will run first baseline, then type-level-experiment and last token-level.
 
 Or run them individually by running: 
-bash ./run_fmri_MB.sh [baseline | type | token]
+```bash ./run_fmri_MB.sh [baseline | type | token]```
+
+## Setup Instructions
+
+### Setup Python Virtual Environment with Conda
+    1. apt-get update
+    2. sudo apt install python3-pip
+    3. download the installer for your python version at https://docs.conda.io/en/latest/miniconda.html#linux-installers
+    (run "python -V" or "python3 -V" to see your version)
+    4. run the installer and follow instructions
+    5. source ~/.bashrc #or restart shell
+    6. conda install python=3.9
+    7. conda create --name fmrienv python=3.9
+
+### Install Requirements
+    1. conda activate fmrienv
+    2. python -m pip install -r requirements.txt
+
+### Citation:
+
+@inproceedings{sogaard-2016-evaluating,
+    title = "Evaluating word embeddings with f{MRI} and eye-tracking",
+    author = "S{\o}gaard, Anders",
+    booktitle = "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W16-2521",
+    doi = "10.18653/v1/W16-2521",
+    pages = "116--121",
+}
