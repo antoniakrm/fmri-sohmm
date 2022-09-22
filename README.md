@@ -28,7 +28,7 @@ Or run them individually by running:
     2. python -m pip install -r requirements.txt
 
 ### Citation:
-
+```
 @inproceedings{bingel-etal-2016-extracting,
     title = "Extracting token-level signals of syntactic processing from f{MRI} - with an application to {P}o{S} induction",
     author = "Bingel, Joachim  and
@@ -43,3 +43,4 @@ Or run them individually by running:
     doi = "10.18653/v1/P16-1071",
     pages = "747--755",
 }
+```
